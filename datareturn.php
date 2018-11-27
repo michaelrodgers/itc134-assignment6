@@ -6,7 +6,7 @@ $password = "ITC134a6";
 $dbname = "a6";
  
 // create connect
-$sql = "SELECT * FROM guestbook GROUP BY (tel)";
+$sql = "SELECT DISTINCT * FROM guestbook";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 $result = $conn->query($sql);
