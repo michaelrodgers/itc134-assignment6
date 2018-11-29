@@ -64,3 +64,16 @@ hr.divider {
 .map-container iframe.clicked {
   pointer-events: auto;
 }
+
+#navA{
+  float:right;
+  color:white;
+  margin-right:1em;
+}
+
+#pagehead{
+  color:white;
+  text-align:center;
+}
+
+

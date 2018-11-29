@@ -13,10 +13,10 @@
 
     </head>
 <body>
-    <h1>
+    <a id="navA" href="./admin.php">Admin Login</a>
+    <h1 id="pagehead">
         GuestBook
     </h1>
-    
     <hr>
     <?php 
     
@@ -175,7 +175,7 @@ if ($conn->query($sql) === TRUE) {
                 Sign Guestbook
             </button>
         </div>
-        <a href="https://itc134-assignment6-michaelrodgers.c9users.io/datareturn.php">View database return</a>
+        <!--<a href="https://itc134-assignment6-michaelrodgers.c9users.io/datareturn.php">View database return</a>-->
                 
     </form>
     
